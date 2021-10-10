@@ -35,11 +35,11 @@ const prezzoBigliettoOver65= (distanzaKm * euroKm) * 0.4;
 
 if (etaPasseggero < 18){
 
-    alert("Complimenti! Hai diritto uno sconto del 20%. Il prezzo finale da pagare è" + prezzoBigliettoUnder18.toFixed(2) + "$" );
+    alert("Complimenti! Hai diritto ad  uno sconto del 20%. Il prezzo finale da pagare è" + prezzoBigliettoUnder18.toFixed(2) + "$" );
 
 } else if (etaPasseggero > 65){
 
-    alert("Complimenti! Hai diritto a uno sconto del 40% .Il prezzo finale da pagare è" + prezzoBigliettoOver65.toFixed(2) + "$");
+    alert("Complimenti! Hai diritto ad uno sconto del 40% .Il prezzo finale da pagare è" + prezzoBigliettoOver65.toFixed(2) + "$");
 } else{
     alert( "Complimeti, il totale del suo biglietto è di" + prezzoBiglietto.toFixed(2) + "$")
 }
